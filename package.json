@@ -1,0 +1,33 @@
+{
+  "name": "fitelo_instagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./bin/start",
+    "start:dev": "ts-node-dev ./index.ts",
+    "dev": "nodemon --exec 'npm run start:dev' | pino-pretty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.18.2",
+    "express-pino-logger": "^7.0.0",
+    "nodemon": "^2.0.20",
+    "pino": "^7.6.4",
+    "pino-pretty": "^9.1.1",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.10",
+    "ts-node-dev": "^2.0.0"
+  }
+}
